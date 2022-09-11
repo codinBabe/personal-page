@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oluwatoyin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Poppins:wght@400;600;900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3e41517785.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header class="">
+    <div class="container row">
+      <button class="nav-toggle" aria-label="open navigation">
+        <span class="hamburger"></span>
+      </button>
+      <a href="#" class=""><img src="./images/Logo.png" alt="logo" class="logo" /></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="list__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="list__item"><a href="#About" class="nav__link">About</a></li>
+          <li class="list__item"><a href="#service" class="nav__link">Services</a></li>
+          <li class="list__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container row">
+      <div class="hero__text">
+        <h4 class="sub__title">HELLO, MY NAME IS</h4>
+        <h1>Oluwatoyin Oredein</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio
+          libero optio, nobis reprehenderit explicabo, eveniet placeat
+          exercitationem pariatur vel neque earum totam repudiandae nam quos
+          accusamus qui sapiente cum!
+        </p>
+        <button class="work"><a href="https://github.com/teboola" class="cv">My work</a></button>
+      </div>
+
+      <div class="hero__img">
+        <img class="myimg" src="./images/Oluwatoyin.png" alt="oluwatoyin picture" />
+      </div>
+    </div>
+  </section>
+  <main id="About" class=" main container row">
+    <div class="main__text">
+      <h2>About me</h2>
+      <h4>Howdy!</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore
+        eligendi quibusdam ut sint officiis molestias saepe? Dolor, odio
+        consequuntur saepe placeat blanditiis velit soluta iusto totam
+        perspiciatis! Eum, magni.
+      </p>
+      <button class="work"><a class="cv"
+          href="https://drive.google.com/file/d/1QGhxCf7V8_mBQK-WeHOacBIXWCkfUPll/view?usp=sharing">Download
+          CV</a></button>
+    </div>
+    <div class="skills">
+      <div class="bar front expert" data-skill="HTML5"></div>
+      <div class="bar front advanced" data-skill="CSS3"></div>
+      <div class="bar front basic" data-skill="JAVASCRIPT"></div>
+    </div>
+  </main>
+  <section id="service" class="ido">
+    <div class="container">
+      <h2 class="service__title">Services</h2>
+      <div class="row col">
+        <div class="service__content research ">
+          <h3>UX Research</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+        </div>
+        <div class="service__content web-dev">
+          <h3>Web Development</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+        </div>
+      </div>
+      <div class="row col">
+        <div class="service__content app-design">
+          <h3>App Design</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+        </div>
+        <div class="service__content web-design">
+          <h3>Web Design</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="contact" class="container">
+    <div class="row">
+      <div class="contact__content">
+        <h2>Let's get in touch</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates porro quae in, consequatur sequi esse
+          maxime
+          quo? Recusandae nihil officia ad optio commodi veniam fuga inventore assumenda impedit? Alias, fugit.</P>
+        <ul class=" contact__list">
+          <li class="contact__items"><i class="fas fa-phone"></i>
+            <h4 class="contact__text">Phone<br> <span>+2348089612363</span></h4>
+          </li>
+          <li class="contact__items"><i class="fas fa-envelope"></i>
+            <h4 class="contact__text">Email <br> <span>teboola@yahoo.com</span></h4>
+          </li>
+          <li class="contact__items"><i class="fas fa-university"></i>
+            <h4 class="contact__text">Location<br> <span>Lagos, Nigeria.</span></h4>
+          </li>
+        </ul>
+      </div>
+      <div class="input">
+        <input type="text" class="name" placeholder="Your Name" id="required">
+        <input type="email" class="email" placeholder="Your Email" id="required">
+        <textarea name="Message" class="message" placeholder="Your Message" id="required" cols="40"
+          rows="10"></textarea>
+        <input type="button" class="submit" value="send message">
+      </div>
+    </div>
+  </section>
+  <footer class="copyright">
+    <div class="container">
+      <a class="social__link" href="https://www.linkedin.com/in/oluwatoyin-oredein-15812418a/">LinkedIn</a>
+      <a class="social__link" href="https://twitter.com/tozim_bakes">Twitter</a>
+      <a class="social__link" href="https://github.com/teboola">Github</a>
+      <p class="right">Copyright &#169 2022 Oluwatoyin </p>
+    </div>
+  </footer>
+</body>
+<script src="./main.js"></script>
+
+</html>
