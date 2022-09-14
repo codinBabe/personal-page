@@ -113,31 +113,6 @@ header {
   text-decoration: none;
   color: #777;
 }
-/* .link {
-  position: relative;
-  transition: clip-path 275ms ease;
-  &:hover span::before, &:focus span::before {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-  span {
-    position: relative;
-    display: inline-block;
-    color: $blue;
-    &::before {
-      position: absolute;
-      content: attr(data-content);
-      color: $darkblue;
-      text-decoration: underline;
-      text-decoration-color: $darkblue;
-      clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
-      transition: clip-path 275ms ease;
-    }
-  }
-}
-span.line-through::before {
-  text-decoration-line: line-through;
-} */
-
 .hero {
   background: #f5f5f5;
   padding: 50px 0;
