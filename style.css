@@ -117,12 +117,12 @@ header {
   background: #f5f5f5;
   padding: 50px 0;
 }
-/* .hero__img {
+.hero__img {
   margin: 1.5em;
 }
 .myimg {
   max-width: 100%;
-} */
+}
 .sub__title {
   color: #777;
 }
